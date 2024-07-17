@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home • DesignHUB</title>
+        <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('http://localhost:81/myproject/close-up-creative-background-with-white-shapes.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column; /* Ensure vertical stacking */
+            justify-content: space-between; /* Space between top and bottom */
+            min-height: 100vh; /* Full viewport height */
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7); /* Translucent background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            align-self: center; /* Center horizontally */
+            margin-top: 100px; /* Adjust this value as needed */
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .logout-btn {
+            align-self: flex-end; /* Align to the end of the flex container (bottom right) */
+            margin: 20px;
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .logout-btn:hover {
+            background-color: #cc0000;
+        }
+
+        .footer {
+            font-family: 'Poppins', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to DesignHUB!</h2>
+        <p>We're glad you're here. Discover how we’re making a difference and how you can get involved.</p>
+    </div>
+    <a href="login.php" class="logout-btn">Logout</a>
+  <footer class="footer">
+        <p>&copy; 2024 DesignHUB. All rights reserved.</p>
+  </footer>
+</body>
+</html>
