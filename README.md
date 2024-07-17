@@ -19,15 +19,18 @@ Key Features:
    CSS: Applied for styling the pages to create a visually appealing and responsive design.
 
    Backend:
-   PHP: Utilized server-side scripting to handle form submissions, interact with the database and manage user sessions securely.
+   PHP: Utilized server-side scripting to handle form submissions, interact with the database, and manage user sessions securely.
 
    Database:
-   MySQL: Chosen for its reliability and efficiency in storing and retrieving user information. Tables were created to store user credentials, profiles, and other related data securely.
+   MySQL: Chosen for its reliability and efficiency in storing and retrieving user information. Tables were created to store user 
+credentials, profiles, and other related data securely.
+   Development Environment:
+   MAMP Server: A local MAMP server was used to create a development environment, facilitating the integration and testing of PHP and MySQL. MAMP provided an easy-to-use, robust platform to simulate a live server environment locally. 
 
-5. Security Measures:
+4. Security Measures:
    Password Hashing: User passwords are hashed before being stored in the database to ensure they are not stored in plain text.
    SQL Injection Prevention: Prepared statements and parameterized queries are used to prevent SQL injection attacks.
    Validation and Sanitization: Input data is thoroughly validated and sanitized to prevent XSS attacks and ensure data integrity.
 
 Project Outcome:
-The project successfully created a functional and secure user registration and sign-in system, providing a robust foundation for managing user authentication. The integration of HTML, CSS, PHP, and MySQL ensured a cohesive and efficient application with a strong focus on user experience and security.
+The project successfully created a functional and secure user registration and sign-in system, providing a robust foundation for managing user authentication. The integration of HTML, CSS, PHP, and MySQL, combined with the use of a local MAMP server, ensured a cohesive and efficient application with a strong focus on user experience and security.
