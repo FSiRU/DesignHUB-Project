@@ -24,10 +24,11 @@ Key Features:
    Database:
    MySQL: Chosen for its reliability and efficiency in storing and retrieving user information. Tables were created to store user 
 credentials, profiles, and other related data securely.
+
    Development Environment:
    MAMP Server: A local MAMP server was used to create a development environment, facilitating the integration and testing of PHP and MySQL. MAMP provided an easy-to-use, robust platform to simulate a live server environment locally. 
 
-4. Security Measures:
+5. Security Measures:
    Password Hashing: User passwords are hashed before being stored in the database to ensure they are not stored in plain text.
    SQL Injection Prevention: Prepared statements and parameterized queries are used to prevent SQL injection attacks.
    Validation and Sanitization: Input data is thoroughly validated and sanitized to prevent XSS attacks and ensure data integrity.
